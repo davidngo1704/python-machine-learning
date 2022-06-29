@@ -1,7 +1,5 @@
-import pandas
+import pandas as pd
 
-data = {
-    'cars': ["BMW", "Roll Royle", "Ford"],
-    "passings": [3,7,4]
-}
-print(pandas.DataFrame(data))
+data = pd.read_csv("data/data.csv")
+
+print(data)
