@@ -1,5 +1,9 @@
 import pandas as pd
 
-data = pd.read_json("data/data.json")
+from scipy import constants
 
-print(data.head(3))
+print(dir(constants))
+
+# data = pd.read_json("data/data.json")
+
+# print(data.head(3))
