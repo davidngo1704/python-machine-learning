@@ -11,6 +11,8 @@ regr = linear_model.LinearRegression()
 
 regr.fit(x, y)
 
+print(regr.coef_)
+
 predictedCO2 = regr.predict([[2300, 1300]])
 
 print(predictedCO2)
