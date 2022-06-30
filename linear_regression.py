@@ -18,7 +18,6 @@ def myfunc(x):
     return slope * x + intercept
 
 mymodel = list(map(myfunc, x))
-print(slope, intercept)
 plt.scatter(x, y)
 plt.plot(x, mymodel)
 plt.show()
