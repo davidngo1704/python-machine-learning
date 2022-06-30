@@ -14,3 +14,6 @@ regr.fit(x, y)
 predictedCO2 = regr.predict([[2300, 1300]])
 
 print(predictedCO2)
+
+# Coefficient
+# The coefficient is a factor that describes the relationship with an unknown variable.
