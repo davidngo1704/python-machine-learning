@@ -24,4 +24,12 @@ plt.show()
 
 # R for relationship 
 # it is important to know the relationship between the values of the x-axis and the values of the y-axis
-# 
+# if there are no relationship the linear regression can't be used to predict anything.
+
+# This relationship - the coefficient of correlation - is called r.
+# The r value ranges from -1 to 1. where 0 means no relationship.
+# and 1(and -1) means 100% related.
+# The result -0.76 shows that there is a relationship. not perfect. but it indicates that we could use 
+# linear regression in future predictions.
+
+# Predict future values
