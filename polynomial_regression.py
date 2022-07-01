@@ -13,7 +13,7 @@ plt.scatter(x, y)
 plt.plot(myline, mymodel(myline))
 
 print(r2_score(y, mymodel(x)))
-# the result 0.94 shows that there is a very good relationsjip
+# the result 0.94 shows that there is a very good relationship
 
 plt.show()
 
