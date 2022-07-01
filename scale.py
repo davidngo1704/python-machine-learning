@@ -24,7 +24,17 @@ scale = StandardScaler()
 df = pandas.read_csv("data/cars2.csv")
 
 x = df[["Weight", "Volume"]]
+y = df['CO2']
 
 scaleX = scale.fit_transform(x)
 
-print(scaleX)
+regr = linear_model.LinearRegression()
+
+regr .fit(scaleX, y)
+
+scaled = scale.transform([[2300, 1.3]])
+
+predictedCO2 = regr.predict([scaled[0]])
+
+
+print(predictedCO2)
